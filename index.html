@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benz Car Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<style>
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color:black;
+    border-radius: 10px;
+}
+</style>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Header -->
+    <header id="header" class=" bg-black text-white py-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold"><img class="w-12" src="./img/th__1_-removebg-preview.png" alt=""></h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#header" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#models" class="hover:text-gray-300">Models</a></li>
+                    <li><a href="#features" class="hover:text-gray-300">Features</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen" style="background-image: url('./img/825377.jpg');">
+        <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50 text-white text-center">
+            <h2 class="text-5xl font-bold mb-4">Experience Luxury & Performance</h2>
+            <p class="text-xl mb-8">The new Benz models redefine excellence.</p>
+            <a href="#models" class="bg-black-500 hover:bg-black text-white font-bold py-3 px-6 rounded-full">Explore Models</a>
+        </div>
+    </section>
+
+    <!-- Models Section -->
+    <section id="models" class="py-16 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Our Models</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Model 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="./img/z1.jpg" alt="Benz Model 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Mercedes-z1 class</h3>
+                        <p class="text-gray-700">An iconic blend of performance and luxury.</p>
+                        <a href="#" class="block mt-4 text-black hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Model 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="./img/z2.jpg" alt="Benz Model 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Mercedes-z2 class</h3>
+                        <p class="text-gray-700">Crafted for those who seek ultimate luxury.</p>
+                        <a href="#" class="block mt-4 text-black hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Model 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="./img/z3.jpg" alt="Benz Model 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Mercedes-z3 class</h3>
+                        <p class="text-gray-700">Excellence in every detail.</p>
+                        <a href="#" class="block mt-4 text-black hover:underline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0 text-blue-500">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24"><path d=""></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Advanced Safety</h3>
+                        <div>
+                            <img src="https://tse3.mm.bing.net/th?id=OIP.0_ej7oYR7bLT1xWTU_eREQHaEK&pid=Api&P=0&h=180" alt="Mercedes Car" class="w-full h-auto rounded-lg shadow-lg">
+                        </div>
+                        <p class="text-gray-700">State-of-the-art safety features for peace of mind.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0 text-blue-500">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24"><path d=""></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Craftsmanship</h3>
+
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtOJZEk-YR3YaoPLP_YB1CIE6ePSpWqsgLdg&s" alt="Mercedes Car" class="w-full h-auto rounded-lg shadow-lg">
+                        </div>
+                        <p class="text-gray-700">Exquisite craftsmanship in every detail.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0 text-blue-500">
+                        <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24"><path d="..."></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Performance</h3>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Qvz32XVsp9BTlfyWDO8U_-2LeYb54L8UAQ&s" alt="Mercedes Car" class="w-full h-auto rounded-lg shadow-lg">
+                        </div>
+                        <p class="text-gray-700">Unmatched power and handling.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-black text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Contact Us</h2>
+            <p class="text-lg mb-8">Have questions? We're here to help. Reach out to us for more information.                        <a href="#" class="block mt-4 text-blue-500 hover:underline">Learn More</a>
+            </p>
+            <a href="mailto:info@benzshowcase.com" class="bg-black-500 hover:bg-gray-200 text-white font-bold py-3 px-6 rounded-full">Email us</a>
+          <br>
+        </div>
+
+    </section>
+    <section class="py-16 bg-black text-white">
+        <div class="container mx-auto text-center">
+
+        <h2 class="text-4xl font-bold mb-8">Comments</h2>
+        <div class="max-w-xl mx-auto bg-white shadow-lg rounded-lg p-4">
+            <!-- Avatar and User Info -->
+            <div class="flex items-center space-x-4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5q9GlWCAoQHPpOiDOECuYUeXW9MQP7Ddt-Q&s" alt="User Avatar" class="w-12 h-12 rounded-full">
+              <div>
+                <h3 class="text-lg font-semibold">                    <p class="text-sm text-gray-500">Mary thomas</p>                    </h3>
+                <p class="text-sm text-gray-500">2 hours ago</p>
+              </div>
+            </div>
+          
+            <!-- Comment Text -->
+            <p class="mt-4 text-gray-700">
+              The Z model looks Exquisite
+            </p>
+          
+            <!-- Action Buttons -->
+            <div class="mt-4 flex items-center space-x-4 text-sm text-gray-500">
+              <button class="flex items-center space-x-1 hover:text-blue-500">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7v14"></path>
+                </svg>
+                <span>Reply</span>
+                <div class="flex -space-x-1 overflow-hidden">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></div>
+              </button>
+              <button class="flex items-center space-x-1 hover:text-blue-500">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v16m16-16v16m-8-8h8m-8 0H4"></path>
+                </svg>
+                <span>Like</span>
+                <div class="flex -space-x-1 overflow-hidden">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                  </div>
+              </button>
+              <button class="flex items-center space-x-1 hover:text-blue-500">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path>
+                </svg>
+                <span>Share</span>
+                <div class="flex -space-x-1 overflow-hidden">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></div>
+              </button>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="max-w-xl mx-auto bg-white shadow-lg rounded-lg p-4">
+            <!-- Avatar and User Info -->
+            <div class="flex items-center space-x-4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAFnwYh_9hB6GYYlh_vXd0lcqSGtWx7tBVQ&s" alt="User Avatar" class="w-12 h-12 rounded-full">
+              <div>
+                <h3 class="text-lg font-semibold">                    <p class="text-sm text-gray-500">sui lee</p>                    </h3>
+                <p class="text-sm text-gray-500">2 hours ago</p>
+              </div>
+            </div>
+          
+            <!-- Comment Text -->
+            <p class="mt-4 text-gray-700">
+              wow looks very premium
+            </p>
+          
+            <!-- Action Buttons -->
+            <div class="mt-4 flex items-center space-x-4 text-sm text-gray-500">
+              <button class="flex items-center space-x-1 hover:text-blue-500">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7v14"></path>
+                </svg>
+                <span>Reply</span>
+                <div class="flex -space-x-1 overflow-hidden">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></div>
+              </button>
+              <button class="flex items-center space-x-1 hover:text-blue-500">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v16m16-16v16m-8-8h8m-8 0H4"></path>
+                </svg>
+                <span>Like</span>
+                <div class="flex -space-x-1 overflow-hidden">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                    <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                  </div>
+              </button>
+              <button class="flex items-center space-x-1 hover:text-blue-500">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path>
+                </svg>
+                <span>Share</span>
+                <div class="flex -space-x-1 overflow-hidden">
+              </button>
+            </div>
+            <br>
+            <div class="max-w-xl mx-auto bg-white shadow-lg rounded-lg p-4">
+                <!-- Avatar and User Info -->
+                <div class="flex items-center space-x-4">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5q9GlWCAoQHPpOiDOECuYUeXW9MQP7Ddt-Q&s" alt="User Avatar" class="w-12 h-12 rounded-full">
+                  <div>
+                    <h3 class="text-lg font-semibold">                    <p class="text-sm text-gray-500">Mary thomas</p>                    </h3>
+                    <p class="text-sm text-gray-500">2 hours ago</p>
+                  </div>
+                </div>
+              
+                <!-- Comment Text -->
+                <p class="mt-4 text-gray-700">
+                  yeah i agree
+                </p>
+              
+                <!-- Action Buttons -->
+                <div class="mt-4 flex items-center space-x-4 text-sm text-gray-500">
+                  <button class="flex items-center space-x-1 hover:text-blue-500">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7-7v14"></path>
+                    </svg>
+                    <span>Reply</span>
+                    <div class="flex -space-x-1 overflow-hidden">
+                        <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></div>
+                  </button>
+                  <button class="flex items-center space-x-1 hover:text-blue-500">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v16m16-16v16m-8-8h8m-8 0H4"></path>
+                    </svg>
+                    <span>Like</span>
+                    <div class="flex -space-x-1 overflow-hidden">
+                        <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="">
+                        <img class="inline-block h-6 w-6 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                      </div>
+                  </button>
+                  <button class="flex items-center space-x-1 hover:text-blue-500">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path>
+                    </svg>
+                    <span>Share</span>
+                    <div class="flex -space-x-1 overflow-hidden">
+                  </button>
+                </div>
+    </section>
+    <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <!-- Image Section -->
+            <div>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.q0-TlfuGS1yGqf1r-j1bYQHaEo&pid=Api&P=0&h=180" alt="Mercedes Car" class="w-full h-auto rounded-lg shadow-lg">
+            </div>
+
+            <!-- Form Section -->
+            <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Book Your Mercedes Now</h2>
+                <form action="#" method="POST">
+                    <!-- Name -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                            Full Name
+                        </label>
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="name" type="text" placeholder="Enter your full name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                            Email Address
+                        </label>
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="email" type="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="phone">
+                            Phone Number
+                        </label>
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="phone" type="tel" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <!-- Preferred Mercedes Model -->
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="model">
+                            Preferred Mercedes Model
+                        </label>
+                        <select
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="model" required>
+                            <option value="">Select a model</option>
+                            <option value="Mercedes-Benz A-Class">Mercedes-Benz z-Class</option>
+                            <option value="Mercedes-Benz C-Class">Mercedes-Benz z-1-Class</option>
+                            <option value="Mercedes-Benz E-Class">Mercedes-Benz z-2-Class</option>
+                            <option value="Mercedes-Benz S-Class">Mercedes-Benz z-3-Class</option>
+                            <option value="Mercedes-Benz GLE">Mercedes-Benz GLE</option>
+                        </select>
+                    </div>
+
+                    <!-- Date Picker -->
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="date">
+                            Preferred Date for Slot
+                        </label>
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="date" type="date" required>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="flex items-center justify-between">
+                        <button
+                            class="bg-black hover:bg-black text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="submit">
+                            Book Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-400 py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Benz Car Showcase. All rights reserved.</p>
+        </div>
+        <div class="icon upArrow"><a href="#header"><i class="fa-solid fa-angle-up brands"></i></a></div>
+
+    </footer>
+</body>
+</html>
